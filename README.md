@@ -2,11 +2,11 @@
 
 FIP Submission for Level 4 IDP3
 
-# LINK TO GITHUB REPOSITORY-
+# LINK TO GITHUB REPOSITORY -
 
 git@github.com:arkorch/FIP_ArkoMadhurKanak.git
 
-# Team Members-
+# Team Members -
 
 Arko Roychowdhury
 Madhur Kakkar
