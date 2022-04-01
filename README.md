@@ -2,10 +2,6 @@
 
 FIP Submission for Level 4 IDP3
 
-# LINK TO GITHUB REPOSITORY -
-
-git@github.com:arkorch/FIP_ArkoMadhurKanak.git
-
 # Team Members -
 
 Arko Roychowdhury
@@ -21,9 +17,21 @@ without this the vue gallery will not work
 -Select Project
 -File Opens on on browser via local host
 
-# LINK TO Project Workflow Document-
+# LINK TO GITHUB
 
-https://docs.google.com/document/d/1uftvGB6ks2Nbb2JbbWQ39u67q4qskBxK2jgEbq29EkA/edit?usp=sharing
+https://github.com/arkorch/FIP_ArkoMadhurKanak.git
+
+# LINK TO RESEARCH DOC & DEV NOTES
+
+https://docs.google.com/document/d/11TnPZofiezPtUV6Hzb6Mb0GYFbHT4OdmD6G9egf0zLg/edit?usp=sharing
+
+# LINK TO PROJECT ROADMAP
+
+https://docs.google.com/document/d/1BMOgfRHVi9mewOlcFzokcpSP-YQMfK1Uf--56CqgjwU/edit?usp=sharing
+
+# LINK TO Presentation
+
+https://docs.google.com/presentation/d/1RPZbUI58GB5dKsUU2mxEtoZLUrfaRX8Fjcw4k2vbsxo/edit?usp=sharing
 
 # Assignment Description (project brief for FIP)
 
@@ -37,9 +45,9 @@ You'll also need to include a form of some kind that hits a PHP API to store use
 
 You’ll need to build your frontend to accept and handle any errors and success states returned from this API (for example, incorrect username / passwords, invalid emails, etc., successful submissions / logins, etc.).
 
-# MIT Licence
+# License
 
-Copyright 2021 Arko Roychowdhury, Madhur Kakkar, Kanak Kumar
+Copyright 2021 Arko Roychowdhury, Kanak Kumar, Madhur Kakkar
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 

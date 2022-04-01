@@ -7,24 +7,26 @@
 	if (isset($_POST['email'])) {
 
 		
-		if (empty($_POST['contact']) ||
-			empty($_POST['password']) ||
+		if (empty($_POST['name']) ||
 			empty($_POST['email']) ||
-			empty($_POST['comments']) ||
-			empty($_POST['customer_name'])) {
+			empty($_POST['contact']) ||
+			empty($_POST['signup']) ||
+			empty($_POST['password']) ||
+			empty($_POST['message'])) {
 				echo json_encode(array('error'=>'0', 'message'=>'Please fill all required fields!'));
 die();
 }
 	    $contact = $con->real_escape_string($_POST['contact']);
-	    $customer_name = $con->real_escape_string($_POST['customer_name']);
+	    $customer_name = $con->real_escape_string($_POST['name']);
 	    $email 	  = $con->real_escape_string($_POST['email']);
-		$comments 	  = $con->real_escape_string($_POST['comments']);
+		$comments 	  = $con->real_escape_string($_POST['message']);
 	    $password = $con->real_escape_string(md5($_POST['password']));
+		$signup = $con->real_escape_string($_POST['signup']);
 
 
 
-	    $query  = "INSERT INTO my_users (contact,customer_name,customer_email,customer_password,comments) 
-	    	      VALUES('$contact','$customer_name','$email','$password','$comments')";
+	    $query  = "INSERT INTO my_users (contact,customer_name,customer_email,customer_password,comments,signupfor) 
+	    	      VALUES('$contact','$customer_name','$email','$password','$comments','$signup')";
 	$result = $con->query($query);
 
             if ($result) {

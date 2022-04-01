@@ -2,8 +2,8 @@
 	// Database configuration 
 	$dbHost     = "localhost"; 
 	$dbUsername = "root"; 
-	$dbPassword = ""; 
-	$dbName     = "kanak_users"; 
+	$dbPassword = "root"; 
+	$dbName     = "userdetails"; 
 	 
 	// Create database connection 
 	$con = new mysqli($dbHost, $dbUsername, $dbPassword, $dbName); 
