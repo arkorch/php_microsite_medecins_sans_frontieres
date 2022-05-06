@@ -1,13 +1,3 @@
-# FIP_ArkoMadhurKanak
-
-FIP Submission for Level 4 IDP3
-
-# Team Members -
-
-Arko Roychowdhury
-Madhur Kakkar
-Kanak Kumar
-
 # TO VIEW PROJECT files
 
 -clone gih reposity to inside htdocs directory in MAMP
@@ -17,37 +7,9 @@ without this the vue gallery will not work
 -Select Project
 -File Opens on on browser via local host
 
-# LINK TO GITHUB
-
-https://github.com/arkorch/FIP_ArkoMadhurKanak.git
-
-# LINK TO RESEARCH DOC & DEV NOTES
-
-https://docs.google.com/document/d/11TnPZofiezPtUV6Hzb6Mb0GYFbHT4OdmD6G9egf0zLg/edit?usp=sharing
-
-# LINK TO PROJECT ROADMAP
-
-https://docs.google.com/document/d/1BMOgfRHVi9mewOlcFzokcpSP-YQMfK1Uf--56CqgjwU/edit?usp=sharing
-
-# LINK TO Presentation
-
-https://docs.google.com/presentation/d/1RPZbUI58GB5dKsUU2mxEtoZLUrfaRX8Fjcw4k2vbsxo/edit?usp=sharing
-
-# Assignment Description (project brief for FIP)
-
-The objective of this project is for teams of students to design, develop and pitch a professional marketing, advertising campaign and website for their Final Integrated Project’s subject matter.
-
-Each team will consist of three (3) members. These team members will take on roles that pertain to Front-end and Back-end web development, Graphic Design and Motion Design.
-
-Mobile First responsive website – use a library like Vue. You could also explore React, Svelte etc. Please do not purchase any URLs related to this project. This can be a single-page app that uses routes to swap content or a 2-page microsite (main page, call to action / signup page).
-
-You'll also need to include a form of some kind that hits a PHP API to store user information. This could be an input for a mailing list, a signup page for users, etc. You can use basic PHP, or the framework we covered in class, whatever makes the most sense for your use case.
-
-You’ll need to build your frontend to accept and handle any errors and success states returned from this API (for example, incorrect username / passwords, invalid emails, etc., successful submissions / logins, etc.).
-
 # License
 
-Copyright 2021 Arko Roychowdhury, Kanak Kumar, Madhur Kakkar
+Copyright 2021 Arko Roychowdhury
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
